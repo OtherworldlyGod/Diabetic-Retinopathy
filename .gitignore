@@ -1,0 +1,90 @@
+# ================================
+# Python (global)
+# ================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# ================================
+# Virtual Environments
+# ================================
+venv/
+.venv/
+env/
+.env/
+
+# ================================
+# Environment Variables
+# ================================
+.env
+.env.local
+.env.*.local
+
+# ================================
+# OS / Editor Junk
+# ================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ================================
+# Logs
+# ================================
+*.log
+logs/
+
+# ================================
+# Jupyter / Kaggle Artifacts
+# ================================
+.ipynb_checkpoints/
+*.ipynb
+
+# ================================
+# ML Artifacts (DO NOT COMMIT)
+# ================================
+ml_service/artifacts/*.h5
+ml_service/artifacts/*.keras
+ml_service/artifacts/*.pb
+ml_service/artifacts/*.onnx
+
+# ================================
+# Uploaded / Temp Files
+# ================================
+uploads/
+temp/
+tmp/
+
+# ================================
+# Backend
+# ================================
+backend/__pycache__/
+backend/*.sqlite3
+
+# ================================
+# Frontend (if React later)
+# ================================
+client/node_modules/
+client/dist/
+client/build/
+
+# ================================
+# Testing / Coverage
+# ================================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ================================
+# Build / Distribution
+# ================================
+build/
+dist/
+*.egg-info/
+
+# ================================
+# Docker
+# ================================
+*.tar
