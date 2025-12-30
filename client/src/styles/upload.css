@@ -1,0 +1,132 @@
+.upload-page {
+  min-height: 100vh;
+  background: #f5f7fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload-card {
+  width: 380px;
+  background: white;
+  padding: 26px 28px 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+
+.upload-card h2 {
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 18px;
+}
+
+
+.upload-box {
+  border: 2px dashed #c7c7c7;
+  border-radius: 10px;
+  padding: 18px;
+  margin: 18px 0;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 14px;
+  color: #777;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.upload-box:hover {
+  border-color: #4f46e5;
+  background: #f8f9ff;
+}
+
+
+.upload-box span {
+  color: #888;
+}
+
+.preview-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #999;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.result-card {
+  margin-top: 20px;
+  padding: 15px;
+  background: #f1f5ff;
+  border-radius: 8px;
+}
+
+.note {
+  font-size: 12px;
+  color: #555;
+  margin-top: 8px;
+}
+
+.severity-badge {
+  padding: 8px 14px;
+  color: white;
+  font-weight: 600;
+  border-radius: 999px;
+  display: inline-block;
+  margin-bottom: 14px;
+}
+
+.confidence-section {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.confidence-bar {
+  height: 8px;
+  background: #e5e7eb;
+  border-radius: 999px;
+  overflow: hidden;
+  margin: 6px 0;
+}
+
+.confidence-fill {
+  height: 100%;
+  background: #4f46e5;
+}
+
+.confidence-value {
+  font-size: 13px;
+  color: #555;
+}
+
+.result-note {
+  font-size: 12px;
+  color: #666;
+  margin-top: 10px;
+}
+

@@ -1,11 +1,21 @@
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from ml_service.inference import predict
 from ml_service.schemas import PredictionResponse
+from fastapi.middleware.cors import CORSMiddleware
+
 
 app = FastAPI(
     title="Diabetic Retinopathy Inference API",
     description="Baseline ML inference service for retinal image analysis",
     version="1.0"
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 @app.get("/health")
