@@ -1,5 +1,5 @@
 import numpy as np
-from ml_service.preprocessing import preprocess_image
+from preprocessing import preprocess_image
 
 CLASS_MAP = {
     0: "No DR",

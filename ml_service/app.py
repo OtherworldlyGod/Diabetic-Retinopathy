@@ -1,6 +1,6 @@
 from fastapi import FastAPI, UploadFile, File, HTTPException
-from ml_service.inference import predict
-from ml_service.schemas import PredictionResponse
+from inference import predict
+from schemas import PredictionResponse
 from fastapi.middleware.cors import CORSMiddleware
 
 

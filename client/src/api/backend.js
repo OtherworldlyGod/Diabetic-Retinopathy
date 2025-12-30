@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:8000";
+const BASE_URL = "http://ml_service:8000";
 
 export async function predictImage(file) {
   const formData = new FormData();
